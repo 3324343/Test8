@@ -1,4 +1,3 @@
-- OS: **Arch linux**
 - DE: **Xfce**
 - Terminal: **Xfce-terminal**
 - Shell: **Bash**
