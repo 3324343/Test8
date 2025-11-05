@@ -3,10 +3,10 @@
 ### 📱 Termux(android)
 
 ```bash
-# Download and run (will auto-detect missing packages)
-curl -L https://raw.githubusercontent.com/HyDE-Project/HyDE/main/Scripts/hydevm/hydevm.sh -o hydevm
-chmod +x hydevm
-./hydevm
+pkg upgrade -y
+pkg update -y
+pkg install wget
+wget https://raw.githubusercontent.com/3324343/Test8/refs/heads/main/scripts/termux-setup.sh
 ```
 
 - DE: **Xfce**
