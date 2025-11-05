@@ -1,6 +1,6 @@
 # 🔗 Installation
 
-## 📱 Android(termux)
+### 📱 Android(termux)
 
 You need to download the following two applications:<br>
 [Termux](https://f-droid.org/tr/packages/com.termux/)<br>
