@@ -1,6 +1,11 @@
 # 🔗 Installation
 
-### 📱 Termux(android)
+## 📱 Android(termux)
+
+You need to download the following two applications:<br>
+[Termux](https://f-droid.org/tr/packages/com.termux/)<br>
+[Termux-X11 for notifications](https://github.com/termux/termux-x11/releases)
+
 
 ```bash
 pkg upgrade -y
