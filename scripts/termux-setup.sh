@@ -36,6 +36,7 @@ install_dependencies() {
 packages=(
     xfce4
     xfce4-goodies
+    git
     kvantum
     fastfetch
     cava
