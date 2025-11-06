@@ -6,10 +6,14 @@ grey='\033[2;37m'
 reset="\033[0m"
 
 
-echo -e "[+] ${green}INSTALLING PACKAGE"
-
 cd $HOME
 rm -rf ../usr/etc/motd
+clear
+
+sleep 5
+
+echo -e "[${green}+${reset}] INSTALLING PACKAGE"
+
 
 sleep 1
 
@@ -18,7 +22,7 @@ pkg update
 pkg upgrade
 
 
-echo -e "[+] ${green}PKG UPGRADE IS DONE"
+echo -e "$[${green}+${reeset}] PKG UPGRADE IS DONE"
 
 clear
 
@@ -57,7 +61,7 @@ clear
 
 sleep 1
 
-echo -e  "[+] Installing additional packages? (Y/n):"
+echo -e  "[${green}+${reset}] Installing additional packages? (Y/n):"
 
 read packages
 
