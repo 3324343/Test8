@@ -70,3 +70,39 @@ printf "${success}${green}All packages installed successfully!${reset}\n"
 
 install_dependencies
 
+#!/bin/bash
+repo=Test8
+
+copy_themes() {
+  cd $HOME 
+  cd ${repo}/files
+  cp -r .themes ~/
+  sleep 1
+  cd $HOME
+}
+
+copy_themes
+
+copy_fonts() {
+  cd $HOME
+  cd ${repo}/files/
+  cp -r .fonts ~/
+  sleep 1
+  cd $HOME
+}
+
+copy_fonts
+
+copy_config() {
+  cd $HOME
+  rm -rf .config
+  sleep 1
+  cd $HOME
+  cd ${repo}/files/
+  cp -r .config
+}
+
+copy_config
+
+
+
