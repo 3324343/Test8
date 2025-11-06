@@ -1,91 +1,69 @@
-green='\033[0;32m'
-red='\033[0;31m'
-bred='\033[1;31m'
-cyan='\033[0;36m'
-grey='\033[2;37m'
+#!/bin/bash
+
+black="\033[0;30m"
+red="\033[0;31m"
+green="\033[0;32m"
+yellow="\033[0;33m"
+blue="\033[0;34m"
+cyan="\033[0;36m"
+white="\033[0;37m"
 reset="\033[0m"
 
+# Status
+info="${cyan}[+]${reset}"
+success="${green}[✓]${reset}"
+error="${red}[!]${reset}"
 
 cd $HOME
 rm -rf ../usr/etc/motd
 clear
 
-sleep 5
+install_dependencies() {
+    echo -e "${info}${green}Installing required packages${reset}"
+    sleep 2
 
-echo -e "[${green}+${reset}] INSTALLING PACKAGE"
+    pkg update -y
+    pkg upgrade -y
+    pkg install wget -y 
 
+    pkg install x11-repo
+    pkg install termux-x11-nightly
 
-sleep 1
+   sleep 2
+   wget https://raw.githubusercontent.com/3324343/Test8/refs/heads/main/scripts/startxfce4_termux.sh
+   chmod +x startxfce4_termux.sh
 
-pkg update
-
-pkg upgrade
-
-
-echo -e "$[${green}+${reeset}] PKG UPGRADE IS DONE"
-
-clear
-
-sleep 1
-
-pkg install git wget -y
-
-sleep 1
-
-wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/termux_native/startxfce4_termux.sh
-chmod +x startxfce4_termux.sh
-
-sleep 1
-
-clear
-
-sleep 1
-
-
-git clone https://github.com/3324343/Test8
+packages=(
+    xfce4
+    xfce4-goodies
+    kvantum
+    fastfetch
+    cava
+    audacious
+    leafpad
+    pavucontrol-qt
+    hexchat
+    geany
+    synaptic
+    chromium
+    termux-x11-nightly
+    pulseaudio
+)
 
 
-pkg install x11-repo
+for package in "${packages[@]}"; do
+    printf "${info}${green}Installing ${yellow}$package${green}...${reset}\n"
+    if pkg install -y "$package"; then
+        printf "${success}${yellow}$package ${green}installed successfully!${reset}\n"
+    else
+        printf "${error}${red}Failed to install ${yellow}$package. ${red}Exiting...${reset}\n"
+        exit 1
+    fi
+done
 
-pkg install termux-x11-nightly
+printf "${success}${green}All packages installed successfully!${reset}\n"
 
-sleep 1
+}
 
-pkg install proot-distro pulseaudio
-pkg install xfce4
-pkg install chromium
+install_dependencies
 
-sleep 1
-
-clear
-
-sleep 1
-
-echo -e  "[${green}+${reset}] Installing additional packages? (Y/n):"
-
-read packages
-
-if [[ $packages == "y" ]]; then
-
-cd $HOME
-mkdir .config
-rm -rf .config/cava
-rm -rf .config/fastfetch
-
-cd .config
-mkdir fastfetch
-cd $HOME
-cd .config/fastfetch
-rm -rf config.jsonc
-wget https://raw.githubusercontent.com/3324343/Test8/refs/heads/main/files/.config/fastfetch/config.jsonc
-
-
-pkg install fastfetch
-pkg install rofi
-pkg install cava
-pkg install parole
-pkg install termux-api
-
-else
-    echo "Leaving..."
-fi
