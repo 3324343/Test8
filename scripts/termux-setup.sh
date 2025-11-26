@@ -45,10 +45,8 @@ packages=(
     audacious
     leafpad
     pavucontrol-qt
-    hexchat
-    geany
     synaptic
-    chromium
+    firefox
     termux-x11-nightly
     pulseaudio
 )
