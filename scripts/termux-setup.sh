@@ -27,15 +27,14 @@ install_dependencies() {
     pkg install wget -y 
     pkg install git -y
     git clone https://github.com/3324343/Test8/
-    
-    pkg install x11-repo
-    pkg install termux-x11-nightly
 
    sleep 2
    wget https://raw.githubusercontent.com/3324343/Test8/refs/heads/main/scripts/startxfce4_termux.sh
    chmod +x startxfce4_termux.sh
 
 packages=(
+    x11-repo
+    termux-x11-nightly
     xfce4
     xfce4-goodies
     git
