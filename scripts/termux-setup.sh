@@ -22,10 +22,10 @@ install_dependencies() {
     echo -e "${info}${green}Installing required packages${reset}"
     sleep 2
     
-    pkg update -y
-    pkg upgrade -y
-    pkg install wget -y 
-    pkg install git -y
+    yes | pkg update -y
+    yes | pkg upgrade -y
+    yes | pkg install wget -y 
+    yes | pkg install git -y
     git clone https://github.com/3324343/Test8/
 
    sleep 2
