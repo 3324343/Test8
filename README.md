@@ -1,6 +1,6 @@
-## 🔗 Installation
 
-### 📱 Android(termux)
+
+### 🍂 Installation(termux)
 
 ```bash
 cd $HOME
