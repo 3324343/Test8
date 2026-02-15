@@ -8,7 +8,7 @@ pkg upgrade -y
 pkg update -y
 pkg install git -y
 pkg install wget
-wget https://raw.githubusercontent.com/3324343/Test8/refs/heads/main/scripts/termux-setup.sh
+wget https://raw.githubusercontent.com/3324343/xfce4-conf/refs/heads/main/scripts/termux-setup.sh
 chmod +x termux-setup.sh
 bash termux-setup.sh
 ```
