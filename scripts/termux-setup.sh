@@ -42,7 +42,6 @@ packages=(
     fastfetch
     cava
     audacious
-    leafpad
     pavucontrol-qt
     synaptic
     firefox
