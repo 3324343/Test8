@@ -29,7 +29,7 @@ install_dependencies() {
     git clone https://github.com/3324343/Test8/
 
    sleep 2
-   wget https://raw.githubusercontent.com/3324343/Test8/refs/heads/main/scripts/startxfce4_termux.sh
+   wget https://raw.githubusercontent.com/3324343/xfce4-conf/refs/heads/main/scripts/startxfce4_termux.sh
    chmod +x startxfce4_termux.sh
 
 packages=(
