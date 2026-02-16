@@ -12,3 +12,8 @@ wget https://raw.githubusercontent.com/3324343/xfce4-conf/refs/heads/main/script
 chmod +x termux-setup.sh
 bash termux-setup.sh
 ```
+---
+Terminal: kitty
+Theme: Ant-Bloody
+Icons: gruvbox-plus-icon-pack
+fonts: JetBrains-Mono
