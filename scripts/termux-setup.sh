@@ -26,7 +26,7 @@ install_dependencies() {
     yes | pkg upgrade -y
     yes | pkg install wget -y 
     yes | pkg install git -y
-    git clone https://github.com/3324343/Test8/
+    git clone https://github.com/3324343/xfce4-conf/
 
    sleep 2
    wget https://raw.githubusercontent.com/3324343/xfce4-conf/refs/heads/main/scripts/startxfce4_termux.sh
@@ -88,6 +88,16 @@ copy_fonts() {
 }
 
 copy_fonts
+
+copy_icons() {
+  cd $HOME
+  sleep 1
+  cd $HOME
+  cd ${repo}/files/
+  cp -r .icons
+}
+
+copy_icons
 
 copy_config() {
   cd $HOME
