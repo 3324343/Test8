@@ -14,7 +14,11 @@ bash termux-setup.sh
 ```
 ---
 **DE: xfce4**
+
 **Terminal: kitty**
+
 **Theme: Ant-Bloody**
+
 **Icons: gruvbox-plus-icon-pack**
+
 **fonts: JetBrains-Mono**
