@@ -14,7 +14,7 @@ chmod +x termux-setup.sh
 bash termux-setup.sh
 ```
 ---
-- **DE: xfce4**
+- **DE: (xfce4)[https://www.xfce.org/]**
 - **Terminal: kitty**
 - **Theme: Ant-Bloody**
 - **Icons: gruvbox-plus-icon-pack**
