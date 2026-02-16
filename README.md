@@ -13,7 +13,7 @@ chmod +x termux-setup.sh
 bash termux-setup.sh
 ```
 ---
-Terminal: kitty
-Theme: Ant-Bloody
-Icons: gruvbox-plus-icon-pack
-fonts: JetBrains-Mono
+## Terminal: kitty
+## Theme: Ant-Bloody
+## Icons: gruvbox-plus-icon-pack
+## fonts: JetBrains-Mono
