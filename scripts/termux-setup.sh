@@ -67,7 +67,7 @@ printf "${success}${green}All packages installed successfully!${reset}\n"
 install_dependencies
 
 #!/bin/bash
-repo=Test8
+repo=xfce4-conf
 
 copy_themes() {
   cd $HOME 
