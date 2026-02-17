@@ -1,5 +1,7 @@
-
 ---
+<p>
+<img src="preview.png">
+</p>
 
 Here are some information about my setup:
 - DE: Xfce4
