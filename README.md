@@ -14,7 +14,10 @@ Here are some information about my setup:
 - Theme: Ant-Bloody
 - Icons: Gruvbox-plus-icon-pack
 - Fonts: JetBrains-Mono
-  
+
+Special credit to [diws](https://youtube.com/@diws)
+for his xfce4 config
+
 ---
 
 ### 🍂 Installation(termux)
