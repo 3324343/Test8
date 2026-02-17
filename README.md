@@ -1,5 +1,4 @@
 # My Xfce4 Config
-This configs it's not 100% pure my creation
 
 <p>
 <img src="preview/preview.png">
