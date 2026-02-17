@@ -1,4 +1,4 @@
-# MY XFCE4 CONFIG
+# My Xfce4 Config
 This configs from many repos, so it's not 100% pure my creation
 
 <p>
