@@ -1,5 +1,5 @@
 <p>
-<img src="preview.png">
+<img src="preview/preview.png">
 </p>
 
 Here are some information about my setup:
