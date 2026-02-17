@@ -1,3 +1,6 @@
+# MY XFCE4 CONFIG
+This configs from many repos, so it's not 100% pure my creation
+
 <p>
 <img src="preview/preview.png">
 </p>
