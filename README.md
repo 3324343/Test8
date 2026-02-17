@@ -1,4 +1,3 @@
----
 <p>
 <img src="preview.png">
 </p>
