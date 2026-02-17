@@ -8,7 +8,7 @@ Here are some information about my setup:
 - Panel: Xfce4 Panel
 - File Manager: Thunar
 - Theme: Ant-Bloody
-- Icons: gruvbox-plus-icon-pack
+- Icons: Gruvbox-plus-icon-pack
 - Fonts: JetBrains-Mono
   
 ---
