@@ -17,7 +17,7 @@ Here are some information about my setup:
 
 Special credit to [LinuxDroidMaster](https://youtube.com/@linuxdroidmaster?si=55wgjCbNcLnxgWOH) for his installation guide and launch scripts 
 [diws](https://youtube.com/@diws)
-for his xfce4 config
+for his xfce4 rice guide and me for doing this ricing on termux. Also a huge thanks to guys/dev that develope the termux
 
 ---
 
