@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="font-name" type="string" value="JetBrains Mono Medium 9"/>
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_IMAGE"/>
+  <property name="background-image-shading" type="double" value="0.68999999999999995"/>
+  <property name="misc-borders-default" type="bool" value="true"/>
+  <property name="misc-menubar-default" type="bool" value="false"/>
+</channel>
