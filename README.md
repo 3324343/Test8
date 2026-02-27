@@ -14,10 +14,6 @@ Here are some information about my setup:
 - Icons: Gruvbox-plus-icon-pack
 - Fonts: JetBrains-Mono
 
-Special credit to [LinuxDroidMaster](https://youtube.com/@linuxdroidmaster?si=55wgjCbNcLnxgWOH) for his installation guide and launch scripts 
-[diws](https://youtube.com/@diws)
-for his xfce4 rice 
-
 ---
 
 ### 🍂 Installation(termux)
